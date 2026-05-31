@@ -37,6 +37,28 @@ Diff = A ⊕ B ⊕ Bin
 Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
+| A | B | Cin | Sum (S) | Carry-out (Cout) |
+| - | - | --- | ------- | ---------------- |
+| 0 | 0 | 0   | 0       | 0                |
+| 0 | 0 | 1   | 1       | 0                |
+| 0 | 1 | 0   | 1       | 0                |
+| 0 | 1 | 1   | 0       | 1                |
+| 1 | 0 | 0   | 1       | 0                |
+| 1 | 0 | 1   | 0       | 1                |
+| 1 | 1 | 0   | 0       | 1                |
+| 1 | 1 | 1   | 1       | 1                |
+
+
+| A | B | Bin | Difference (D) | Borrow-out (Bout) |
+| - | - | --- | -------------- | ----------------- |
+| 0 | 0 | 0   | 0              | 0                 |
+| 0 | 0 | 1   | 1              | 1                 |
+| 0 | 1 | 0   | 1              | 1                 |
+| 0 | 1 | 1   | 0              | 1                 |
+| 1 | 0 | 0   | 1              | 0                 |
+| 1 | 0 | 1   | 0              | 0                 |
+| 1 | 1 | 0   | 0              | 0                 |
+| 1 | 1 | 1   | 1              | 1                 |
 
 **Procedure**
 
@@ -44,12 +66,18 @@ Write the detailed procedure here
 
 **Program:**
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
+/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by:PARAVEZHAA M
+RegisterNumber:212225220070
 */
+<img width="705" height="607" alt="image" src="https://github.com/user-attachments/assets/989b2ffc-fa69-4be6-b791-4fdcfaa5d91f" />
+
 
 **RTL Schematic**
 
 **Output Timing Waveform**
+<img width="1210" height="687" alt="image" src="https://github.com/user-attachments/assets/bc52e88a-6584-470e-9ee9-839f9b7a1002" />
+
+<img width="1223" height="747" alt="image" src="https://github.com/user-attachments/assets/73930b68-3ee8-4e5b-8e64-c20ed76683e2" />
 
 **Result:**
 
